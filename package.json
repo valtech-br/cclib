@@ -1,6 +1,6 @@
 {
   "name": "@valtech-br/cclib",
-  "version": "0.95.0",
+  "version": "0.99.0",
   "description": "Common components library to be used with Valtech's FE-BR boilerplate",
   "main": "dist/js/cclib.cjs.js",
   "exports": {
