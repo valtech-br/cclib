@@ -1,7 +1,7 @@
 {
-  "private": true,
-  "name": "cclib",
+  "name": "@valtech-br/cclib",
   "version": "0.95.0",
+  "description": "Common components library to be used with Valtech's FE-BR boilerplate",
   "main": "dist/js/cclib.cjs.js",
   "exports": {
     "module": "./dist/js/cclib.esm.js",
@@ -13,7 +13,7 @@
     "prototype"
   ],
   "author": "Valtech Front-End BR Team",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "eslint": "eslint --ext .js,.vue \"src/\"",
     "eslint:fix": "yarn eslint -- --fix",
