@@ -1,0 +1,31 @@
+.simple-btn {
+  width: 220px;
+  height: 56px;
+  margin: 0 4px;
+  cursor: pointer;
+  // border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    color: $base;
+  }
+}
+
+.simple-btn__primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.simple-btn__accent {
+  background-color: $accent;
+  border-color: $accent;
+}
+
+.simple-btn__plain {
+  background-color: $base;
+  border: solid 3px $primary;
+  span {
+    color: $primary;
+  }
+}

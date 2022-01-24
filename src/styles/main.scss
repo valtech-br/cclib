@@ -1,0 +1,14 @@
+@import './node_modules/bootstrap/dist/css/bootstrap-reboot';
+@import './node_modules/bootstrap/dist/css/bootstrap-grid';
+
+@import 'base/index';
+@import 'atoms/index';
+// @import 'molecules';
+// @import 'organisms';
+// @import 'pages';
+
+// HTML & Body
+
+body {
+  padding: 1rem;
+}

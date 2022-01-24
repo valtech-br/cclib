@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Simple Button Component Should renders correctly 1`] = `
+<div
+  class="simple-btn"
+>
+  <span
+    class="text-button noselect"
+  />
+</div>
+`;

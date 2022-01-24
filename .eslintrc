@@ -1,0 +1,38 @@
+{
+  "plugins": ["vue", "jest"],
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:vue/essential"
+  ],
+  "parserOptions": {
+    "parser": "@babel/eslint-parser",
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "settings": {
+  },
+  "overrides": [{
+    "files": ["*.vue"],
+    "rules": {
+      "indent": "off"
+    }
+  }],
+  "rules": {
+    "import/no-unresolved": 0,
+    "global-require": 0,
+    "comma-dangle": 0,
+    "semi": [2, "never"],
+    "vue/script-indent": ["error", 2, {
+      "baseIndent": 1
+    }],
+    "no-console": 0
+  },
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "__DEBUG__": "readonly",
+    "__BASE_URL__": "readonly"
+  }
+}
