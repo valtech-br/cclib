@@ -8,17 +8,17 @@ Common components library to be used with Valtech´s FE Boilerplate
 **1)** Install it as a dependency in your project
 
 ```bash
-npm install git+ssh://git@gitlab-cc.valtech.com:samuel.leal/cclib#master
+npm install @valtech-br/cclib
 
 # or
 
-yarn add git+ssh://git@gitlab-cc.valtech.com:samuel.leal/cclib#master
+yarn add @valtech-br/cclib
 ```
 
 **2)** Import the library into your *main.js* file and pass it into your Vue instance, as below:
 
 ```bash
-import cclib from 'cclib'
+import cclib from '@valtech-br/cclib'
 
 (...)
 
@@ -36,7 +36,7 @@ const root = new Vue({
 
 
 ```bash
-@import '~cclib/dist/css/cclib';
+@import './node_modules/@valtech-br/cclib/dist/css/cclib';
 
 ```
 
@@ -48,13 +48,13 @@ And that's all!
 
 &nbsp;&nbsp; *a)* Directly using chosen component's tag into hbs file.
 
-&nbsp;&nbsp; *b)* Copy the components folder from node_modules/cclib/prototype/components into your Fractal's project.
+&nbsp;&nbsp; *b)* Copy the components folder from node_modules/@valtech-br/cclib/prototype/components into your Fractal's project.
 
 &nbsp;&nbsp; *c)* Import the component directly into Vue files, as folow:
 
 ```bash
 # import the library into the .vue file, at the top of the script tag:
-import cclib from 'cclib'
+import cclib from '@valtech-br/cclib'
 
 (...)
 
@@ -97,5 +97,4 @@ yarn build # build for distribution
 
 #### Todo's
 - [ ] Finish development good practices
-- [ ] More details on simple-btn documentation (links)
 - [ ] ...
